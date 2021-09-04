@@ -7,13 +7,21 @@ body {
 body {
   background-image: url("https://www.santabanta.com/images/wallpapers/food/pizza-slice-wallpaper-1024-768-0.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
 form {
   width: 30%;
+  height: 40%;
+}
+
+form fieldset {
+  width: 100%;
   background-color: rgba(238, 225, 227, 0.9);
-  margin-top: 10%;
-  margin-left: 40%;
+}
+
+form fieldset legend {
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */
